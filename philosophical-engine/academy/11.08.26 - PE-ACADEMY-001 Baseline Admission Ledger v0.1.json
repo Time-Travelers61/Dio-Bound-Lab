@@ -1,0 +1,118 @@
+{
+  "schema_id": "labyrinth.philosophical_engine.academy_pilot_admission.v0.1",
+  "created_date_boise": "2026-11-08",
+  "pilot_id": "PE-ACADEMY-001",
+  "competency_id": "ATHENA-SOJ-C01",
+  "status": "SOURCE_PREPARED_P0_ADMISSION_BLOCKED",
+  "human_authority_reserved": true,
+  "source_only": true,
+  "model_weight_training_performed": false,
+  "adopted_curriculum": false,
+  "active_athena_config_changed": false,
+  "live_model_calls_performed": 0,
+  "controls": {
+    "student_role": "ATHENA-001",
+    "actual_student_identity_verified": false,
+    "model_id": null,
+    "model_digest": null,
+    "original_system_prompt_sha256": null,
+    "baseline_config_snapshot_sha256": null,
+    "trained_config_snapshot_sha256": null,
+    "provider_or_host_ref": null,
+    "sampling_parameters_sha256": null,
+    "retrieval_allowlist_sha256": null,
+    "tool_allowlist_sha256": null,
+    "validator_version": null,
+    "allowed_runtime_scope": "SYNTHETIC_ONLY_ON_SEPARATE_AUTHORIZATION",
+    "approved_time_and_cost_envelope": null,
+    "actual_executor": null,
+    "executor_authorization_ref": null,
+    "exact_original_prompt_custody_ref": null,
+    "intake_status": "BLOCKED_MISSING_ACTUAL_CONFIG_AND_EXAMINER_CUSTODY"
+  },
+  "existing_sources": [
+    {
+      "system": "DIO",
+      "repo": "Time-Travelers61/Dio-Bound-Lab",
+      "kind": "HISTORICAL_CUSTODIAN_MAIN",
+      "sha": "75989e788a40c1839f613b035eb893042d71d84f",
+      "authoritative_status": "HISTORICAL_READ_ONLY"
+    },
+    {
+      "system": "DIO",
+      "repo": "Time-Travelers61/Dio-Bound-Lab",
+      "kind": "PORTABLE_CORE_PR7_CANDIDATE",
+      "sha": "73545f53c70d5e28673dc20f56f0d96feceafcfd",
+      "authoritative_status": "UNMERGED_RELEASE_BLOCKED"
+    },
+    {
+      "system": "DIO",
+      "repo": "Time-Travelers61/Dio-Bound-Lab",
+      "kind": "ASSURANCE_PR10_CANDIDATE",
+      "sha": "7323020064e943b84ed3a9693d9509421066ab95",
+      "authoritative_status": "UNMERGED_NO_SEMANTIC_CERT"
+    },
+    {
+      "system": "Atlas",
+      "repo": "Time-Travelers61/Atlas",
+      "kind": "ATHENA_ACADEMY_PR35_CANDIDATE",
+      "sha": "09243b523963eb0574d3e154900873f2ff92c65f",
+      "authoritative_status": "UNMERGED_NOT_ACTIVATED"
+    },
+    {
+      "system": "Atlas",
+      "repo": "Time-Travelers61/Atlas",
+      "kind": "ATHENA_WISDOM_PR46_CANDIDATE",
+      "sha": "d84a4e4006dc524408a431ab5bb23f35163864a7",
+      "authoritative_status": "UNMERGED_DOC_ONLY"
+    },
+    {
+      "system": "Atlas",
+      "repo": "Time-Travelers61/Atlas",
+      "kind": "WEIGHTLESS_ACADEMY_PR49_CANDIDATE",
+      "sha": "51d3ab7767be3ae4d124c330e6914614839f3167",
+      "authoritative_status": "UNMERGED_NO_NEW_REGISTRY"
+    }
+  ],
+  "historical_diagnostic_evidence": {
+    "report_kind": "PREVIOUS_SAME_PROJECT_DEVELOPMENT_NOT_COMPARABLE_TO_NEW_MATCHED_BASELINE",
+    "reported_guided_label_matches": "4/7",
+    "reported_terminal_label_matches": "3/5",
+    "reported_structural_validity": "12/12",
+    "source_ref": "Time-Travelers61/Atlas PR #46 at d84a4e4006dc524408a431ab5bb23f35163864a7",
+    "inference_ceiling": "SUGGESTS_WHICH_SKILLS_TO_TRAIN_NOT_QUANTIFIED_TRAINING_EFFECT"
+  },
+  "experiment": {
+    "primary_competency": "Exact proposition and time/source binding, verdict-to-rationale alignment, permission discipline, proportional advice, revision trigger.",
+    "arms": [
+      "BASELINE_UNTRAINED",
+      "TRAINED_GUIDED"
+    ],
+    "intended_new_exam_cases_per_arm": 5,
+    "independently_held_new_case_count": 0,
+    "independently_held_gold_sha256": null,
+    "frozen_scoring_policy_sha256": null,
+    "original_model_responses": 0,
+    "observed_baseline_scores": null,
+    "observed_trained_scores": null,
+    "blinded_semantic_grading_performed": false,
+    "examiner_identity_verified": false,
+    "examiner_identity": null,
+    "examiner_scope_ref": null,
+    "examiner_gold_custody_ref": null,
+    "versioned_curriculum_sha256": null,
+    "independent_certification": "NOT_ESTABLISHED",
+    "positive_results_are_dev_not_production": true
+  },
+  "qualification": {
+    "existing_academy_policy": "One fresh complete zero-invalid 5/5 round counts as developmental; three consecutive fresh perfect rounds are a developmental candidate only.",
+    "scope": "SYNTHETIC_SOURCE_EVIDENCE_DECISION_SKILL_ONLY",
+    "passage_to_real_qualification": "SEPARATE_HELD_OUT_INDEPENDENT_AUDIT_AND_HUMAN_ACCEPTANCE",
+    "no_independent_exam_claim": true,
+    "promotion_authorized": false,
+    "permissions_changed": false,
+    "cross_project_delivery_performed": false
+  },
+  "next_step": "Verify actual pre-existing Athena candidate config and a separately held examiner before one baseline response is generated.",
+  "stop_condition": "If candidate identity, model config, source input, independent examiner or tool authority is missing: remain P0_BLOCKED; do not substitute role-play."
+}
