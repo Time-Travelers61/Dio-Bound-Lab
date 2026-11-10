@@ -1,0 +1,165 @@
+{
+  "id": "PE-ACADEMY-001-TRACK-A-PROPOSED-CONTROL-v0.1",
+  "created_date_boise": "2026-11-10",
+  "state": "FROZEN_SOURCE_PROPOSAL_ONLY_NOT_ADOPTED_NOT_EXECUTABLE",
+  "model_role_identity": "TEMPORARY_SYNTHETIC_DECISION_CANDIDATE_NOT_PERSISTENT_ATHENA_WORKER",
+  "source_history": {
+    "atlas_nov4_runner_pr": 39,
+    "atlas_nov4_runner_head": "0d6c0dd6f81bc69ed3637649cc9e3b97649b10a3",
+    "atlas_nov4_runner_git_blob_sha1": "071edd94fb40e49f82d4b20fe79df611437b4b3e",
+    "historical_educator_system_prompt_sha256": "a9d5d87f065277580f965c8d9c5683b0ffd03eb5aa105a074196dceb1c61a9aa",
+    "historical_educator_system_prompt_reused": false,
+    "reason_for_new_neutral_prompt": "Historical EDUCAT0R schema grades teacher diagnoses; the School of Judgment examines decisions. Using the teacher prompt as control would confound task competence with role mismatch.",
+    "original_athena_pilot_pr13_head": "c2cb1a76a26b804499c1de78a78d128f4e43d1d0",
+    "source_reconciliation_pr16_prior_head": "f51988148ea4799ad86f5654c694014f6f402bfb"
+  },
+  "proposed_ollama_request_common": {
+    "endpoint_expected": "http://127.0.0.1:11434/api/chat",
+    "model": "qwen3.5:4b",
+    "model_digest_historical_only": "7f3251fa6878a78a606bcb3c074283306e5ad2ea411a7774a9dd98a4bc7f2d13",
+    "model_digest_current_verified": null,
+    "think": false,
+    "stream": false,
+    "tools": [],
+    "keep_alive": "0",
+    "options": {
+      "temperature": 0,
+      "num_ctx": 8192,
+      "num_predict": 900
+    },
+    "format": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "exact_proposition",
+        "cited_source_ids",
+        "source_role_analysis",
+        "observation_inference_forecast",
+        "truth_verdict",
+        "verdict_reason",
+        "strongest_objection",
+        "advisory_action",
+        "action_reason",
+        "fictional_permission_status",
+        "revision_trigger",
+        "no_execution_authority"
+      ],
+      "properties": {
+        "exact_proposition": {
+          "type": "string"
+        },
+        "cited_source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_role_analysis": {
+          "type": "string"
+        },
+        "observation_inference_forecast": {
+          "type": "string"
+        },
+        "truth_verdict": {
+          "type": "string",
+          "enum": [
+            "SUPPORTED",
+            "REFUTED",
+            "INCONCLUSIVE",
+            "NOT_TESTABLE"
+          ]
+        },
+        "verdict_reason": {
+          "type": "string"
+        },
+        "strongest_objection": {
+          "type": "string"
+        },
+        "advisory_action": {
+          "type": "string",
+          "enum": [
+            "PREPARE",
+            "BUILD_PROBE",
+            "STOP_PARK"
+          ]
+        },
+        "action_reason": {
+          "type": "string"
+        },
+        "fictional_permission_status": {
+          "type": "string",
+          "enum": [
+            "VERIFIED",
+            "MISSING",
+            "UNKNOWN"
+          ]
+        },
+        "revision_trigger": {
+          "type": "string"
+        },
+        "no_execution_authority": {
+          "type": "boolean",
+          "const": true
+        }
+      }
+    },
+    "system_prompt": "You are a candidate reasoning role in a fictional, supervised School of Judgment development exercise. You are not an independently qualified agent or a source of permissions. Answer only the exact proposition in the supplied synthetic packet. Cite source record IDs and relevant actors, times, and scopes. Distinguish stipulated records and observations from inferences, untested causes, and forecasts. Select a truth verdict (SUPPORTED, REFUTED, INCONCLUSIVE, or NOT_TESTABLE) separately from an advisory next step (PREPARE, BUILD_PROBE, or STOP_PARK). Do not invent sources, evidence, permissions, observed metrics, or model calls. Do not claim agreement among simulated perspectives is independent confirmation. Give a specific objection and a source-checkable revision trigger. Never execute an action or contact a tool. Return only the JSON object matching the prescribed schema.",
+    "system_prompt_sha256": "d59c3c1300b600f04f6dc2b2e06aa75cf7fee48748ccd72a1f1c52ca926233ec",
+    "base_prompt_applies_to_both_conditions": true
+  },
+  "case_input_contract": {
+    "case_id": "HUMAN_HELD_PRIVATE_UNIQUE_ID",
+    "exact_proposition": "INPUT_NOT_CREATED_OR_DISTRIBUTED",
+    "decision_time": "HUMAN_HELD_PRIVATE",
+    "fictional_source_packet": "INPUT_NOT_CREATED_OR_DISTRIBUTED",
+    "output_response_must_echo_original_proposition": true,
+    "source_and_gold_not_in_this_configuration": true
+  },
+  "arms": [
+    {
+      "id": "BASELINE_UNTRAINED",
+      "common_system_prompt_only": true,
+      "extra_teacher_material": "NONE",
+      "evaluable_cases": 2
+    },
+    {
+      "id": "TREATMENT_IN_CONTEXT",
+      "common_system_prompt_only": false,
+      "extra_teacher_material": "VERSIONED_SUPERVISED_TEACHING_TRANSCRIPT_ONLY_AFTER_BASELINE_IS_FROZEN",
+      "evaluable_cases": 2
+    }
+  ],
+  "status_and_gates": {
+    "proposed_not_authorized": true,
+    "human_execution_approval_ref": null,
+    "examiner_separate_custody_verified": false,
+    "current_model_catalog_or_active_config_verified": false,
+    "no_model_calls_by_config_source": true,
+    "actual_model_calls": 0,
+    "documented_authority_to_start_ollama": false,
+    "official_p1_baseline_authorized": false,
+    "independent_qualification": false,
+    "chapter_1_to_9_program": "PINNED_PAUSED",
+    "dioparking_revisit_register": "Parking Lot/11.09.26 - DIO Philosophical Engine and Athena Revisit Register v0.1.md"
+  },
+  "contamination_controls": {
+    "baseline_cases_excluded_from_teacher_feedback": true,
+    "guided_lessons_withheld_until_raw_baseline_captured": true,
+    "treatment_context_contains_disclosed_lessons_only": true,
+    "input_only_delivery_no_gold": true,
+    "no_model_tools_or_external_search": true,
+    "old_time_windows_expired": true,
+    "outputs_preserved_per_attempt": true,
+    "no_retry_after_uncertain_outcome": true
+  },
+  "proposed_resource_ceiling_not_approved": {
+    "human_held_novel_fictional_cases": 2,
+    "evaluated_outputs_per_arm": 2,
+    "guided_practice_max_model_replies": 3,
+    "evaluation_model_replies": 4,
+    "maximum_total_model_calls": 7,
+    "per_call_timeout_seconds_proposed": 94,
+    "total_elapsed_time_limit_seconds_proposed": 1800,
+    "paid_api_cost_budget_usd": 0
+  }
+}
