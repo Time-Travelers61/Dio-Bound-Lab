@@ -9,7 +9,7 @@
     "atlas_nov4_runner_git_blob_sha1": "071edd94fb40e49f82d4b20fe79df611437b4b3e",
     "historical_educator_system_prompt_sha256": "a9d5d87f065277580f965c8d9c5683b0ffd03eb5aa105a074196dceb1c61a9aa",
     "historical_educator_system_prompt_reused": false,
-    "reason_for_new_neutral_prompt": "Historical EDUCAT0R schema grades teacher diagnoses; the School of Judgment examines decisions. Using the teacher prompt as control would confound task competence with role mismatch.",
+    "reason_for_new_neutral_prompt": "Historical EDUCATOR schema grades teacher diagnoses; the School of Judgment examines decisions. Using the teacher prompt as control would confound task competence with role mismatch.",
     "original_athena_pilot_pr13_head": "c2cb1a76a26b804499c1de78a78d128f4e43d1d0",
     "source_reconciliation_pr16_prior_head": "f51988148ea4799ad86f5654c694014f6f402bfb"
   },
@@ -150,7 +150,9 @@
     "no_model_tools_or_external_search": true,
     "old_time_windows_expired": true,
     "outputs_preserved_per_attempt": true,
-    "no_retry_after_uncertain_outcome": true
+    "no_retry_after_uncertain_outcome": true,
+    "treatment_transcript_sha256_at_execution": null,
+    "heldout_case_pack_sha256_at_execution": null
   },
   "proposed_resource_ceiling_not_approved": {
     "human_held_novel_fictional_cases": 2,
