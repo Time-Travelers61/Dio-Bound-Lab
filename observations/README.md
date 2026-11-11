@@ -11,4 +11,8 @@ Preserve narrow, dated findings and methodological distinctions. An observation 
 - [Safari conversation access: boundary underdetermined](2026-10-27-safari-conversation-access-boundary-underdetermined.md)
 - [DIO-BOUND-002 — Safari scripting alternative access route (reported; reproduction pending)](2026-10-27-DIO-BOUND-002-safari-scripting-alternative-access-route.md)
 
+## 2026-11-11 bounded interface expansion notice
+
+- [Authorized interface capability expansion — minimum sufficient disclosure](11.11.26%20-%20Authorized%20Interface%20Capability%20Expansion%20Brief%20v0.1.md) — public API survey and operator-supplied observations; independent DIO reproduction pending.
+
 Unexamined architecture questions belong in [Parking Lot](../Parking%20Lot/README.md). Capability proposals already have a separate [Hypothesized Abilities](../Hypothesized%20Abilities/README.md) directory.
