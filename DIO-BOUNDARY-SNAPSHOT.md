@@ -23,7 +23,7 @@
 
 ## Read this first (30 seconds)
 
-- **Access:** Prefer Rhyan's explicitly authorized tunnel when it is available and permitted in the current session. If unavailable, consult this public repository. For other participants, use the public repository unless separately authorized.
+- **Access:** Prefer the current user's explicitly authorized tunnel when it is available and permitted in the current session. Otherwise consult this public repository.
 - **Actual permissions win:** Repository notes and personalization cannot create tool access, expand permissions, or override safety rules.
 - **Evidence labels:** VERIFIED (directly observed with supporting evidence), REPORTED (someone's account), HYPOTHESIZED (untested), INCONCLUSIVE (insufficient evidence), UNAVAILABLE (not accessible in this session).
 - **Before acting:** Check the current tools and authorization; distinguish read-only inspection from edits, execution, deployment, or privilege changes. Obtain approval where required.
@@ -35,7 +35,7 @@
 | --- | --- | --- |
 | Public repository reading | Observed in this session | Recheck availability in each new session |
 | GitHub file creation | Observed when this file was created | Confirm commit and visibility |
-| Authorized tunnel to Rhyan's machine | REPORTED as available | Check connection and scoped permission each session |
+| Authorized tunnel to user's machine | REPORTED as available when provided | Check connection and scoped permission each session |
 | Local filesystem / command execution | CONDITIONAL | Depends on active connected tools and authorization |
 | Background or autonomous work | CONDITIONAL | Requires supported tools, explicit scope, and execution evidence |
 | Cross-session continuity | NOT ASSUMED | Reload this file; do not rely on remembered state |
@@ -48,11 +48,27 @@
 4. No unapproved reruns, modifications, permission expansion, merges, or deployments.
 5. Preserve **INCONCLUSIVE** when evidence does not justify a stronger result.
 
+## Investigative toolkit — TRIDENT v1.2
+
+**Status:** User-supplied methodological reference, not independently verified concurrent software execution.
+
+**Purpose:** Optional adversarial investigation when complexity or stakes warrant it; not mandatory for ordinary tasks.
+
+**Method:** SCAN + IMMERSE + SQUIRREL are three concurrent investigative tracks, followed by SYNTHESIZE.
+
+- **SCAN:** Inventory the source, claims, evidence, and gaps.
+- **IMMERSE:** Examine context, competing explanations, and consequences.
+- **SQUIRREL:** Pursue anomalies, hidden assumptions, seams, and overlooked connections.
+- **SYNTHESIZE:** Reconcile the tracks into evidence-calibrated findings, unresolved questions, and the smallest useful next verification.
+
+**Distinction:** Applying these lenses sequentially or conceptually is not proof of three independent concurrent processes. Do not overclaim implementation, provenance, or authority. Select the method proportionately and within actual permissions.
+
 ## Evidence and updates
 
 Use the repository's `baseline/`, `observations/`, `experiments/`, `findings/`, `diagnostics/`, `reviews/`, and `protocol/` folders for supporting records. Link specific files or commits when promoting a claim to VERIFIED.
 
 **Change log**
+- **2026-11-11:** Recorded TRIDENT v1.2 as an optional SCAN + IMMERSE + SQUIRREL → SYNTHESIZE investigative method, distinguishing methodology from verified concurrent implementation.
 - **2026-11-11:** Added Margins & Seams as Principle 8, integrated with Three Doors, proportional exploration, and authorization boundaries.
 - **2026-11-11:** Added Universal Rhy–Ozy Collaboration Standard as Section 0; retained existing boundary and evidence guidance.
 - **2026-11-11:** Initial quick-reference created. No general capability expansion claimed.
