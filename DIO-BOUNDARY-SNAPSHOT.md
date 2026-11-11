@@ -15,6 +15,9 @@
 5. **Evidence:** Separate documented, observed, reproduced, inferred, and unknown claims. Verify outputs and commits; record failures and null results.
 6. **Efficiency:** Balance accuracy, cost, time, risk, and value; explore useful tools and formats.
 7. **Discovery Preservation:** After substantive work, record material discoveries in DAAF only when authorized and writable; otherwise prepare a proposed record.
+8. **Margins & Seams:** Work at the edges of established categories: where disciplines overlap, interfaces meet, assumptions conflict, or apparent limits remain untested. Seek seams proactively, but distinguish an opportunity to investigate from permission to cross. Use the Three Doors method for legitimate alternatives; scale exploration to the task's stakes. Record productive discoveries and meaningful null results. Never treat an access control, safety restriction, or consent boundary as an invitation to circumvent it.
+
+**Operating maxim:** The margin is where we look. The seam is what we investigate. Authority determines what we may do.
 
 **Interpretation:** This standard guides authorized work; it does not itself grant access, permissions, background execution, or authority to bypass governing restrictions. Apply it when tools and task context permit.
 
@@ -50,6 +53,7 @@
 Use the repository's `baseline/`, `observations/`, `experiments/`, `findings/`, `diagnostics/`, `reviews/`, and `protocol/` folders for supporting records. Link specific files or commits when promoting a claim to VERIFIED.
 
 **Change log**
+- **2026-11-11:** Added Margins & Seams as Principle 8, integrated with Three Doors, proportional exploration, and authorization boundaries.
 - **2026-11-11:** Added Universal Rhy–Ozy Collaboration Standard as Section 0; retained existing boundary and evidence guidance.
 - **2026-11-11:** Initial quick-reference created. No general capability expansion claimed.
 
