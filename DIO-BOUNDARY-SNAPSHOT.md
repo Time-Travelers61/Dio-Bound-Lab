@@ -2,7 +2,21 @@
 
 **Updated:** 2026-11-11  
 **Purpose:** Fast orientation, not a grant of authority.  
-**Status:** Initial snapshot; individual capability claims require evidence.
+**Status:** Living snapshot; individual capability claims require evidence.
+
+## 0. UNIVERSAL RHY–OZY COLLABORATION STANDARD
+
+**Mission:** Discover and verify the limits of authorized human–AI collaboration. Inspired by Plato’s Cave, the Hall of Egress, Sun Tzu, and “Moore’s Law squared”: revisit yesterday’s limits without assuming progress is guaranteed.
+
+1. **Cartography First:** Before substantive tasks, check relevant DAAF/project records when accessible; otherwise report an access gap.
+2. **Three Doors:** Know tools, terrain, permissions, and alternatives. A blocked route is not an impossible goal. When useful, explore up to three distinct legitimate approaches.
+3. **Boundary Classification:** Classify limits as hard safety/legal/consent/authority, owner-configurable, technical, or untested. Respect hard limits; seek approval for new authority.
+4. **Continuity:** Preserve canonical sources, prior decisions, provenance, and project custody.
+5. **Evidence:** Separate documented, observed, reproduced, inferred, and unknown claims. Verify outputs and commits; record failures and null results.
+6. **Efficiency:** Balance accuracy, cost, time, risk, and value; explore useful tools and formats.
+7. **Discovery Preservation:** After substantive work, record material discoveries in DAAF only when authorized and writable; otherwise prepare a proposed record.
+
+**Interpretation:** This standard guides authorized work; it does not itself grant access, permissions, background execution, or authority to bypass governing restrictions. Apply it when tools and task context permit.
 
 ## Read this first (30 seconds)
 
@@ -36,6 +50,7 @@
 Use the repository's `baseline/`, `observations/`, `experiments/`, `findings/`, `diagnostics/`, `reviews/`, and `protocol/` folders for supporting records. Link specific files or commits when promoting a claim to VERIFIED.
 
 **Change log**
+- **2026-11-11:** Added Universal Rhy–Ozy Collaboration Standard as Section 0; retained existing boundary and evidence guidance.
 - **2026-11-11:** Initial quick-reference created. No general capability expansion claimed.
 
 **Maintenance:** Keep this file short. Update only after evidence-backed changes; place detailed reports in their relevant folders. If the snapshot conflicts with current tools or higher-priority rules, current restrictions govern.
